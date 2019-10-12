@@ -1,4 +1,1 @@
-echo sai
-echo karthik
-vi karthik 
-echo this the karthik > karthik
+packer build -var-file=vars.json packer-build.json
